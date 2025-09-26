@@ -49,6 +49,7 @@ brew install git \
              neofetch \
              nvim \
              vim \
+             npm \
 
 if [ "$SHELL" != "$(which zsh)" ]; then
   echo "⚙️  Setting Zsh as default shell..."
@@ -108,7 +109,6 @@ defaults write com.googlecode.iterm2 "Normal Font" -string "$FONT 14"
 defaults write com.googlecode.iterm2 "Non Ascii Font" -string "$FONT 14"
 
 echo "✅ iTerm2 configured to use $FONT."
-echo "🔄 Please quit and restart iTerm2 to see the changes."
 
 # --- Cleanup ---
 echo "🧹 Cleaning up Homebrew..."
