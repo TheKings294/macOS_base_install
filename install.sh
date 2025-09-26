@@ -50,6 +50,21 @@ brew install git \
              nvim \
              vim \
              npm \
+             mkcert \
+             tmux \
+             ripgrep \
+             gh \
+             tldr \
+             autojump \
+             symfony-cli \
+             speedtest \
+             nmap \
+             pipx \
+             thefuck \
+             nvm \
+             pyenv \
+             ngrok \
+             httpie \
 
 if [ "$SHELL" != "$(which zsh)" ]; then
   echo "⚙️  Setting Zsh as default shell..."
