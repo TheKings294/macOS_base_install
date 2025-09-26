@@ -85,6 +85,31 @@ brew install --cask iterm2 \
                       mamp \
                       jetbrains-toolbox \
 
+FONT="FiraCode Nerd Font"
+
+echo "🔧 Installing $FONT..."
+
+# Tap fonts repo if not already added
+brew tap homebrew/cask-fonts
+
+# Install font
+brew install --cask font-fira-code-nerd-font
+
+echo "✅ $FONT installed."
+
+# Configure iTerm2 to use Nerd Font as default
+echo "⚙️  Configuring iTerm2 to use $FONT..."
+
+# This sets the font for the "New Window" profile (Default)
+# Warning: Requires iTerm2 to be closed
+defaults write com.googlecode.iterm2 "Normal Font" -string "$FONT 14"
+
+# Apply to non-ASCII font as well (icons, glyphs)
+defaults write com.googlecode.iterm2 "Non Ascii Font" -string "$FONT 14"
+
+echo "✅ iTerm2 configured to use $FONT."
+echo "🔄 Please quit and restart iTerm2 to see the changes."
+
 # --- Cleanup ---
 echo "🧹 Cleaning up Homebrew..."
 brew cleanup
