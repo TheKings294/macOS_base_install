@@ -37,6 +37,7 @@ brew install git \
              php \
              node \
              composer \
+             curl \
              bat \
              python \
              wget \
@@ -46,7 +47,6 @@ brew install git \
              zsh-autosuggestions \
              zsh-syntax-highlighting \
              gcc \
-             neofetch \
              nvim \
              vim \
              npm \
@@ -63,8 +63,9 @@ brew install git \
              thefuck \
              nvm \
              pyenv \
-             ngrok \
              httpie \
+             pnpm \
+             htop \ 
 
 if [ "$SHELL" != "$(which zsh)" ]; then
   echo "⚙️  Setting Zsh as default shell..."
@@ -130,5 +131,3 @@ echo "🧹 Cleaning up Homebrew..."
 brew cleanup
 
 echo "✅ Setup complete! Restart your terminal (iTerm2) to apply changes."
-
-neofetch
