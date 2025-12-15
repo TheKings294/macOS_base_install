@@ -8,7 +8,7 @@ un environnement de développement complet sur **macOS** :
 - **Oh My Zsh** (+ plugins utiles)
 - **PHP, Git, Node, Composer, Python**
 - **Bat, wget, curl, tree, htop**
-- **VSCode, Postman, Discord, Docker, Chrome, Slack, AppCleaner, MAMP**
+- **VSCode, Postman, Discord, Docker, Chrome, AppCleaner, MAMP**
 - **JetBrains Toolbox**
 - **Nerd Font (FiraCode) configuré par défaut dans iTerm2**
 
