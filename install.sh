@@ -101,6 +101,7 @@ brew install --cask iterm2 \
                       appcleaner \
                       mamp \
                       jetbrains-toolbox \
+                      dbeaver-community \
 
 FONT="FiraCode Nerd Font"
 
